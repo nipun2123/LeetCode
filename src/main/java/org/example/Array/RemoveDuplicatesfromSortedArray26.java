@@ -25,7 +25,7 @@ public class RemoveDuplicatesfromSortedArray26 {
 
 // Solution
 // I have used the two pointer approach for this.
-// It loop through the array starting from first index. First pointer starts at 0. Second pointer starts at 1.
+// It loops through the array starting from first index. First pointer starts at 0. Second pointer starts at 1.
 // When each pointer's value are not equal, replace the first pointer+1 value with second pointer value. It means add the next highest value to the next position and increment the number of unique value count(k).
 // If each pointer's value are equal, keep looping.
 
